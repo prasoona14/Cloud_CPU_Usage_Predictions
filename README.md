@@ -77,17 +77,16 @@ Steps to Run
 Ensure the dataset azure.csv is in the project directory.
 Run the Python script to preprocess data, train the models, and generate predictions:
 
-python time_series_forecasting.py
-Outputs
-Plots for actual vs. predicted values for all metrics.
-Printed performance metrics (RMSE, MAE, MAPE).
+
 Project Highlights
 Containerization: The models can be containerized using tools like Docker.
 Scalability: Code is modular and can handle larger datasets by modifying TIME_STEPS and batch sizes.
+
 Future Improvements
 Add hyperparameter tuning to optimize the models further.
 Experiment with additional recurrent architectures such as Bidirectional LSTMs or Transformers.
 Integrate the pipeline into a cloud-based deployment system for real-time forecasting.
+
 Author
 Prasoona Ganaparthi
 LinkedIn: linkedin.com/in/prasoona14
